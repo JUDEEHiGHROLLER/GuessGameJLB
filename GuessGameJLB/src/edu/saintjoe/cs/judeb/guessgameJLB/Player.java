@@ -1,3 +1,4 @@
+package edu.saintjoe.cs.judeb.guessgameJLB;
 
 public class Player {
 	int number = 0;  // where the guess goes

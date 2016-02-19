@@ -1,3 +1,4 @@
+package edu.saintjoe.cs.judeb.guessgameJLB;
 
 public class GuessGame {
 	Player p1;
@@ -5,7 +6,7 @@ public class GuessGame {
 	Player p3;
 
 
-	public void startGame ()  {
+	public void startGame()  {
 		p1 = new Player () ;
 		p2 = new Player () ;
 		p3 = new Player () ;
@@ -23,9 +24,9 @@ public class GuessGame {
 		
 		while(true) {
 				System.out.println ("Number to guess is " + targetNumber);
-				p1.guess ();
-				p2.guess ();
-				p3.guess ();
+				p1.guess();
+				p2.guess();
+				p3.guess();
 				
 				guessp1 = p1.number;
 				System.out.println("Player one guessed " + guessp1);
